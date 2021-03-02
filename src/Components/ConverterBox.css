@@ -1,0 +1,30 @@
+input {
+  display: block;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+output {
+  font-size: 20px;
+}
+
+h1 {
+  margin: 10% auto;
+}
+
+.converter-box {
+  background-color: #282c34;
+  min-height: 40vh;
+  width: 60%;
+  margin: 1% auto;
+  box-shadow: 5px 5px 5px gray;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 1% auto 1%;
+}
+
+.output-field{
+  color: pink;
+}
