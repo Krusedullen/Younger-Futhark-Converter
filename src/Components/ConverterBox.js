@@ -23,13 +23,17 @@ const Box = () => {
 
   return (
     <div className="converter-box">
-    <h1>ᚠUTAᚱK CONVEᚱTEᚱ</h1>
-    <input type='text' onChange={changedInputHandler} value={valueState.inputValue}></input>
+      <h1>ᚠUTAᚱK CONVEᚱTEᚱ</h1>
+      <h1>just checking if this can be pushed</h1>
+      <input
+        type="text"
+        onChange={changedInputHandler}
+        value={valueState.inputValue}
+      ></input>
 
-    <RuneOutputField textInput={valueState.inputValue}/>
-
+      <RuneOutputField textInput={valueState.inputValue} />
     </div>
-  )
+  );
 }
 
 export default Box;
