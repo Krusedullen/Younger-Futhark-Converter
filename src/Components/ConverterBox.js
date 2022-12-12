@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import RuneOutputField from './RuneOutputField.js'
 import './ConverterBox.css';
 
-//denne metoden fungererr ikke skikkelig ennå.
 
 
 const Box = () => {
@@ -24,7 +23,6 @@ const Box = () => {
   return (
     <div className="converter-box">
       <h1>ᚠUTAᚱK CONVEᚱTEᚱ</h1>
-      <h1>just checking if this can be pushed</h1>
       <input
         type="text"
         onChange={changedInputHandler}
